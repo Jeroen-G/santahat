@@ -25,7 +25,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "dev.jeroeng.kerstmuts"
     },
     "web": {
       "bundler": "metro",
@@ -44,6 +48,15 @@
     "experiments": {
       "typedRoutes": true,
       "tsconfigPaths": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5e92c8cf-f477-48ca-97f8-3644995754c6"
+      }
+    },
+    "owner": "jgroenendijk"
   }
 }

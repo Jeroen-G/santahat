@@ -29,6 +29,7 @@
     "@react-navigation/native": "^6.0.2",
     "dom-to-image": "^2.6.0",
     "expo": "^49.0.0",
+    "expo-dev-client": "~2.4.12",
     "expo-image-picker": "~14.3.2",
     "expo-linking": "~5.0.2",
     "expo-media-library": "~15.4.1",
