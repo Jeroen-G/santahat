@@ -10,8 +10,7 @@
     "lint:es": "eslint ./src",
     "lint:tsc": "tsc --noEmit",
     "test": "jest",
-    "format": "eslint ./src --fix",
-    "plop": "plop"
+    "format": "eslint ./src --fix"
   },
   "eslintConfig": {
     "extends": [
