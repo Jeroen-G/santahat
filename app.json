@@ -30,10 +30,7 @@
       "permissions": [
         "android.permission.RECORD_AUDIO"
       ],
-      "package": "dev.jeroeng.kerstmuts",
-      "runtimeVersion": {
-        "policy": "sdkVersion"
-      }
+      "package": "dev.jeroeng.kerstmuts"
     },
     "web": {
       "bundler": "metro",
@@ -61,6 +58,9 @@
         "projectId": "5e92c8cf-f477-48ca-97f8-3644995754c6"
       }
     },
-    "owner": "jgroenendijk"
+    "owner": "jgroenendijk",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }
