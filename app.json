@@ -13,7 +13,8 @@
     },
     "scheme": "kerstmuts",
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/5e92c8cf-f477-48ca-97f8-3644995754c6"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -24,12 +25,15 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#25292e"
       },
       "permissions": [
         "android.permission.RECORD_AUDIO"
       ],
-      "package": "dev.jeroeng.kerstmuts"
+      "package": "dev.jeroeng.kerstmuts",
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
     },
     "web": {
       "bundler": "metro",
